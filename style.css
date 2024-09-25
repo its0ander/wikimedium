@@ -1,0 +1,40 @@
+body {
+    width: 1440px;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1 {
+    color:antiquewhite;
+    font-size: 40px;
+    font-weight:500;
+}
+p {
+    color: blueviolet;
+}
+.firstParagraph {
+    color: blue;
+}
+.secondParagraph {
+    background-color: chocolate;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 300px
+}
+div {
+    width: 200px;
+    height: 200px;
+   /* border-radius: 100px; */
+}
+.red {
+    background-color: red;
+}
+.gold {
+    background-color: gold;
+}
+.green {
+    background-color: green;
+}
