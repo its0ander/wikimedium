@@ -1,4 +1,4 @@
-nav {
+nav.sidebar {
     width: 280px;
     position: fixed;
     left: 20px;
@@ -6,20 +6,20 @@ nav {
     line-height: 20px;
     opacity: 0.2;
 }
-nav:hover {
+nav.sidebar:hover {
     opacity: 1;
     transition: 0.8s;
 }
 nav h2 {
     font-weight: bold;
 }
-nav a {
+nav.sidebar a {
     text-decoration: none;
     color: grey;
 }
-nav ol > ol {
+nav.sidebar ol > ol {
     margin-left: 20px;
 }
-nav a:hover {
+nav.sidebar a:hover {
     color: black;
 }

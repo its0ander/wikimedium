@@ -24,13 +24,13 @@ article p {
     margin-bottom: 52px;
 }
 
-h1+p {
+article h1+p {
     font-size: 24px;
     line-height: 32px;
     color: rgba(0, 0, 0, 0.4);
 }
 
-h1+p+p {
+article h1+p+p {
     margin-top: 52px;
 }
 
@@ -57,7 +57,7 @@ article h1 {
     line-height: 45px;
 }
 
-h1+p {
+article h1+p {
     margin-top: 8px;
     font-family: 'PT Sans Caption', sans-serif;
     font-size: 22px;
@@ -65,7 +65,7 @@ h1+p {
     color: rgba(0, 0, 0, 0.4);
 }
 
-h1+p+p {
+article h1+p+p {
     margin-top: 30px;
 }
 
@@ -76,8 +76,8 @@ article h2 {
     color: rgba(0, 0, 0, 0.8);
 }
 
-h2+p,
-h2+blockquote {
+article h2+p,
+article h2+blockquote {
     margin-top: 7px;
 }
 
@@ -88,8 +88,8 @@ article h3 {
     color: rgba(0, 0, 0, 0.8);
 }
 
-h3+p,
-h3+blockquote {
+article h3+p,
+article h3+blockquote {
     margin-top: 6px;
 }
 
@@ -115,27 +115,27 @@ article li {
     line-height: 34px;
 }
 
-article mg {
+article img {
     display: block;
     width: 1020px;
     margin: 79px auto 0;
 }
 
-img+h2 {
+article img+h2 {
     margin-top: 79px;
 }
 
-img+p,
-img+blockquote,
-img+ul {
+article img+p,
+article img+blockquote,
+article img+ul {
     margin-top: 77px;
 }
 
-h2+img {
+article h2+img {
     margin-top: 82px;
 }
 
-h3+img {
+article h3+img {
     margin-top: 81px;
 }
 
